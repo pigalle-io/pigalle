@@ -1,8 +1,8 @@
 {
   "name": "@pigalle/pigalle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Pigalle framework. Made for Node users. Simple, lightweight, decoupled, maintenable, reliable and tested microlibraries for all your applicative scope.",
-  "main": "lib/index.js",
+  "main": "lib/pigalle.js",
   "scripts": {
     "test": "nyc mocha",
     "lint": "node ./node_modules/standard/bin/cmd.js --fix",
@@ -58,7 +58,7 @@
     "github-uri-https-parser": "^0.1.1-alpha1"
   },
   "dependencies": {
-    "@pigalle/core.base.class": "^0.3.1",
+    "@pigalle/core.base.class": "^0.6.0",
     "lodash": "^4.17.5"
   }
 }
