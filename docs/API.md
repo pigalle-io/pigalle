@@ -234,6 +234,6 @@ A factory function to create an instance of {Pigalle}.
 
 ***
 
-_Documentation generated on Mon, 26 Feb 2018 16:04:30 GMT_
+_Documentation generated on Mon, 26 Feb 2018 16:36:31 GMT_
 
 **Copyright &copy; 2018 [SAS 9 Février](https://9fevrier.com/)**
