@@ -1,6 +1,6 @@
 {
   "name": "@pigalle/pigalle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The Pigalle framework. Made for Node users. Simple, lightweight, decoupled, maintenable, reliable and tested microlibraries for all your applicative scope.",
   "main": "lib/pigalle.js",
   "scripts": {
@@ -40,10 +40,13 @@
   },
   "homepage": "https://github.com/pigalle-io/pigalle#readme",
   "devDependencies": {
+    "@pigalle/serializers.simple-json": "^0.1.5",
     "JSONPath": "^0.11.2",
+    "connect": "^3.6.6",
     "coveralls": "^3.0.0",
     "current-git-branch": "^1.0.1",
     "fs-then-native": "^2.0.0",
+    "github-uri-https-parser": "^0.1.1-alpha1",
     "gulp": "^3.9.1",
     "gulp-load-plugins": "^1.5.0",
     "gulp-mustache-plus": "^1.0.1",
@@ -54,11 +57,14 @@
     "pre-commit": "^1.2.2",
     "require-dir": "^1.0.0",
     "should": "^13.2.1",
-    "standard": "^11.0.0",
-    "github-uri-https-parser": "^0.1.1-alpha1"
+    "standard": "^11.0.0"
   },
   "dependencies": {
+    "@9fv.io/undefined-error": "^1.0.0",
     "@pigalle/core.base.class": "^0.6.0",
+    "@pigalle/core.importer": "^0.1.0",
+    "@pigalle/registries.plugins": "^0.1.6",
+    "@pigalle/registries.thirdparties": "^0.1.2",
     "lodash": "^4.17.5"
   }
 }
