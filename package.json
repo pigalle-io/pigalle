@@ -1,6 +1,6 @@
 {
   "name": "@pigalle/pigalle",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "The Pigalle framework. Made for Node users. Simple, lightweight, decoupled, maintenable, reliable and tested microlibraries for all your applicative scope.",
   "main": "lib/pigalle.js",
   "scripts": {

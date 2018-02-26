@@ -92,6 +92,15 @@ describe('{Pigalle}.use() ', () => {
     })
   })
 
+  describe('call root Pigalle scope after using', () => {
+    it('a Pigalle plugin should be an instance of {Pigalle}', () => {
+      (p.use('@pigalle/serializers.simple-json').serializer().pigalle()).should.be.an.instanceOf(Pigalle)
+    })
+    it('a third-party plugin should be an instance of {Pigalle}', () => {
+      (p.use('connect').pigalle()).should.be.an.instanceOf(Pigalle)
+    })
+  })
+
   describe('using installed third-party library', () => {
     it('use("connect") should be an object', () => {
       (p.use('connect')).should.be.an.Object()
